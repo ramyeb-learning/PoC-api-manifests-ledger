@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format" : "format"
+    "format" : "format manifests -- -details"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "poc-manifest-formatter": "^1.0.3"
+    "poc-manifest-formatter": "latest"
   }
 }

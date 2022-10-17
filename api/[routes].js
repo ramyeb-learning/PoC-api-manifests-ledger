@@ -10,6 +10,7 @@ function getManifest(path) {
 export default function handler(req, res) {
   const queryObject = url.parse(req.url, true).query;
   const { routes: fileName } = request.query;
+  console.log(fileName)
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');
   res.json(getManifest('/manifests/'+fileName+'.json'));
